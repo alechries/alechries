@@ -310,7 +310,7 @@ a {
   bottom: 0;
 }
 .section-wrapper .skill-percentage:nth-child(1)::before {
-  width: 80%;
+  width: 100%;
   -webkit-animation: skill_1 0.6s ease;
           animation: skill_1 0.6s ease;
 }
@@ -320,7 +320,7 @@ a {
           animation: skill_2 0.6s ease;
 }
 .section-wrapper .skill-percentage:nth-child(3)::before {
-  width: 40%;
+  width: 80%;
   -webkit-animation: skill_3 0.6s ease;
           animation: skill_3 0.6s ease;
 }
@@ -330,6 +330,11 @@ a {
           animation: skill_4 0.6s ease;
 }
 .section-wrapper .skill-percentage:nth-child(5)::before {
+  width: 40%;
+  -webkit-animation: skill_5 0.6s ease;
+          animation: skill_5 0.6s ease;
+}
+.section-wrapper .skill-percentage:nth-child(6)::before {
   width: 40%;
   -webkit-animation: skill_5 0.6s ease;
           animation: skill_5 0.6s ease;
@@ -416,7 +421,7 @@ a {
     width: 40%;
   }
 }
-@-webkit-keyframes skill_5 {
+@-webkit-keyframes skill_6 {
   from {
     width: 0%;
   }
@@ -424,7 +429,7 @@ a {
     width: 40%;
   }
 }
-@keyframes skill_5 {
+@keyframes skill_6 {
   from {
     width: 0%;
   }
