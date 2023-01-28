@@ -315,12 +315,12 @@ a {
           animation: skill_1 0.6s ease;
 }
 .section-wrapper .skill-percentage:nth-child(2)::before {
-  width: 40%;
+  width: 80%;
   -webkit-animation: skill_2 0.6s ease;
           animation: skill_2 0.6s ease;
 }
 .section-wrapper .skill-percentage:nth-child(3)::before {
-  width: 80%;
+  width: 40%;
   -webkit-animation: skill_3 0.6s ease;
           animation: skill_3 0.6s ease;
 }
@@ -357,7 +357,7 @@ a {
     width: 0%;
   }
   to {
-    width: 90%;
+    width: 80%;
   }
 }
 @keyframes skill_2 {
@@ -365,7 +365,7 @@ a {
     width: 0%;
   }
   to {
-    width: 90%;
+    width: 80%;
   }
 }
 @-webkit-keyframes skill_3 {
@@ -373,7 +373,7 @@ a {
     width: 0%;
   }
   to {
-    width: 50%;
+    width: 40%;
   }
 }
 @keyframes skill_3 {
@@ -381,7 +381,7 @@ a {
     width: 0%;
   }
   to {
-    width: 50%;
+    width: 40%;
   }
 }
 @-webkit-keyframes skill_4 {
@@ -389,7 +389,7 @@ a {
     width: 0%;
   }
   to {
-    width: 60%;
+    width: 40%;
   }
 }
 @keyframes skill_4 {
@@ -397,7 +397,7 @@ a {
     width: 0%;
   }
   to {
-    width: 60%;
+    width: 40%;
   }
 }
 @-webkit-keyframes skill_5 {
@@ -405,7 +405,7 @@ a {
     width: 0%;
   }
   to {
-    width: 70%;
+    width: 40%;
   }
 }
 @keyframes skill_5 {
@@ -413,38 +413,6 @@ a {
     width: 0%;
   }
   to {
-    width: 70%;
-  }
-}
-@-webkit-keyframes skill_6 {
-  from {
-    width: 0%;
-  }
-  to {
-    width: 70%;
-  }
-}
-@keyframes skill_6 {
-  from {
-    width: 0%;
-  }
-  to {
-    width: 70%;
-  }
-}
-@-webkit-keyframes skill_7 {
-  from {
-    width: 0%;
-  }
-  to {
-    width: 70%;
-  }
-}
-@keyframes skill_7 {
-  from {
-    width: 0%;
-  }
-  to {
-    width: 70%;
+    width: 40%;
   }
 }
