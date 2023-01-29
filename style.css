@@ -272,6 +272,7 @@ a {
   color: #9099a0;
   font-weight: 300;
   margin-bottom: 20px;
+  padding-right: 50px;
 }
 @media (max-width: 450px) {
   .section-wrapper {
